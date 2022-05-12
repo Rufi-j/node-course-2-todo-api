@@ -9,9 +9,9 @@ const bcrypt = require('bcryptjs');
 //     })
 // });
 
-const hashedPassword = '$2a$10$brzMC5suGRv25136abTvPOfhphnY2nv5t6cuJ4afujGcClrwsHxVu';
+const hashedPassword = '$2a$10$wyScxvIUXNH8233//qbz.OkOfUUsg4gQ0IuuyK/.cRoKxrnLumWXC';
 
-bcrypt.compare('1238!', hashedPassword, (err, res) => {
+bcrypt.compare('passwor123!', hashedPassword, (err, res) => {
     console.log(res);
 });
 
